@@ -1,4 +1,4 @@
-package com.alexander_lehr.colorizeddummy;
+package com.alexander_lehr.colorizedrummy;
 
 public class Main {
 
