@@ -10,13 +10,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-
-        String input = scanner.nextLine();
-
         int count = 0;
 
-        for(char c : input.toCharArray()) {
+        for(char c : args[0].toCharArray()) {
             if(!(c == 'r' || c == 'y' || c == 'b' || c == 'k')) return;
             chars.put(count, c);
             count++;
@@ -63,8 +59,6 @@ public class Main {
         } else {
             System.out.println("Success");
         }
-
-        for()
     }
 
     private static boolean isEverythingMin() {
